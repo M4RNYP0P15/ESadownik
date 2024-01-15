@@ -1,0 +1,282 @@
+{
+    "kategorie":[
+        { 
+            "nazwa": "Drzewa",
+            "typ":[
+                {
+                    "rodzaj": "Grusza",
+                    "odmiany": [
+                        {
+                            "nazwa":"Xenia",
+                            "galeria":[
+                                {"src":"temp"},
+                                {"src":"temp"}
+                            ],
+                            "charakterystyka":"t",
+                            "owoc": "t",
+                            "uprawa": "t",
+                            "wymagania":{
+                                "sloneczne":"t",
+                                "wodne":"t",
+                                "odczyn_gleby":"t"
+                            },
+                            "pora_kwitnienia": "t",
+                            "podatnosc_na_choroby": "t",
+                            "samopylnosc": "t",
+                            "zapylacze": ["t"],
+                            "ciecie": "t", 
+                            "mrozoodpornosc": "t",
+                            "dojrzalosc": {
+                                "zbiorcza":"t",
+                                "konsumpcyjna": "t"
+                            },
+                            "okres_przechowywania": "t",
+                            "rozstawa":"t",
+                            "pochodzenie": "t"
+                        },
+                        {
+                            "nazwa":"Carola",
+                            "galeria":[
+                                {"src":"t"},
+                                {"src":"t"}
+                            ],
+                            "charakterystyka":"",
+                            "owoc": "Grusza Carola rodzi owoce duże/bardzo duże (często ponad 250 g) w szczególności w początkowych latach owocowania. Kształt ich jest nieco wydłużony, szeroki i często pękaty od strony kielicha z krótką szyjką. Skórka jest gładka i początkowo zielona, później staje się zielono-żółta z atrakcyjnym jasnobrązowym ordzawieniem. Od strony nasłonecznionej może pojawić się czerwony rumieniec. Grusza Carola posiada miąższ bardzo smaczny, soczysty i aromatyczny o wysokiej jakości. Owoce idealne do jedzenia na surowo.",
+                            "uprawa": "t",
+                            "wymagania":{
+                                "sloneczne":"t",
+                                "wodne":"t",
+                                "odczyn_gleby":"t"
+                            },
+                            "pora_kwitnienia": "t",
+                            "podatnosc_na_choroby": "t",
+                            "samopylnosc": "t",
+                            "zapylacze": ["Faworytka (KLAPSA)", "Komisówka", "Triumf Packh"],
+                            "ciecie": "t", 
+                            "mrozoodpornosc": "t",
+                            "dojrzalosc": {
+                                "zbiorcza":"t",
+                                "konsumpcyjna": "t"
+                            },
+                            "okres_przechowywania": "t",
+                            "rozstawa":"t",
+                            "pochodzenie": "t"
+                        },
+                        {
+                            "nazwa":"Faworytka (KLAPSA)",
+                            "galeria":[
+                                {"src":"https://drzewka-faworytka.pl/userdata/public/gfx/2762/GRUSZA-FAWORYTKAKlapsa.jpg"},
+                                {"src":"https://drzewka-faworytka.pl/userdata/public/gfx/6827/GRUSZA-FAWORYTKAKlapsa.jpg"}
+                            ],
+                            "charakterystyka":"Grusza Faworytka, nazywana Klapsą, to stara odmiana pochodzenia amerykańskiego. Do uprawy była wprowadzona już w XIX wieku. Powstała z Flamandki i Bonkrety Williamsa. Od dawna uprawiana jest prawie we wszystkich krajach klimatu umiarkowanego. W Polsce grusza Klapsa jest chętnie uprawiana i ceniona ze względu na swój wygląd i wyjątkowy smak owoców, które cechują się korzennym aromatem. W uprawie znajduje się też mutant Faworytki o czerwonych owocach – Red Faworytka. Spot jest równie popularny głównie w uprawach amatorskich. Charakteryzuje się on słabszym wzrostem drzewa, mniejszą wytrzymałością na mróz i większa podatnością na parcha i zarazę ogniową. Drzewka owocowe gruszki faworytki polecane są do uprawy towarowej oraz amatorskiej. Grusze tej odmiany mogą być sadzone zarówno w ogrodach przydomowych, jak i na działkach. Klienci szczególnie cenią ją za duże owoce i szybkie dojrzewanie. To dobry wybór na wszelkie przetwory i kompoty.",
+                            "owoc": "Duże lub bardzo duże owoce o masie 150-200 g. Gruszki przybierają regularne w stosunku do siebie szeroko-jajowate kształty i pokrywają się grubą, subtelnie połyskującą skórą o zielonkawo-żółtej barwie, której powierzchnię w około 50% zajmuje ciemnoczerwony, rozmyty rumieniec. Owoce posiadają średniej wielkości gniazdo nasienne i charakteryzują się zamkniętymi komorami. Liczne, średniej wielkości nasiona cechuje z kolei szeroka i pękata forma. Klapsa posiada biało-kremowy miąższ o drobnoziarnistej, masłowej strukturze i winno-słodkim smaku z subtelnie wyczuwalnym, korzennym aromatem. Owoce znajdują zastosowanie w sektorze deserowo-przetwórczym i powszechnie wykorzystywane są m. in. jako składnik kompotów, soków, nalewek, win, dżemów oraz susz. Gruszki Faworytki każdorazowo dojrzewają jednak nierównomiernie, nie wykazując tendencji do przedwczesnego opadania. Zbiory nie łatwo ulegają uszkodzeniom mechanicznym i dobrze znoszą transport.",
+                            "uprawa": "t",
+                            "wymagania":{
+                                "sloneczne": "pełne słońce, półcień",
+                                "wodne": "umiarkowana wilogtność, średnie",
+                                "odczyn_gleby": "obojętny"
+                            },
+                            "pora_kwitnienia": "kwiecień",
+                            "podatnosc_na_choroby": "parch gruszy, zaraza ogniowa?",
+                            "samopylnosc": "obcopylne",
+                            "zapylacze": ["Generał Leclerc", "Bonkreta Williamsa", "Komisówka", "Bera Hardy", "Paryżanka", "Konferencja", "Hortensja"],
+                            "ciecie": "Cięcie Faworytki jest konieczne. Trzeba pamiętać, że ciecie zapewnia prawidłowy wzrost, owocowanie oraz odpowiednie wybarwienie i smak owoców. Po posadzeniu przycina się aby nadać drzewu odpowiedni kształt. Robi się to w ten sposób, że skracamy sadzonkę na wysokości około 90cm nad ziemią – jeśli nie ma gałązek. Przy drzewku rozgałęzionym stosujemy inną metodę cięcia – skracamy pędy o 30%. Natomiast wierzchołek ucinamy na wysokości 35cm nad ostatnim pędem bocznym. Korona, w późniejszych latach powinna składać się z przewodnika i 3-6 konarów. Formowanie korony trwa 2-3 lata. Drzewa uformowane również się tnie. Faworytka owocuje głównie na krótkopędach, dlatego należy o tym pamiętać przy przycinaniu. Krótkopędy szybko się starzeją i dlatego często trzeba drzewa odmładzać. Najlepszym terminem cięcia jest druga połowa marca.", 
+                            "mrozoodpornosc": "do -30°C / do -21",
+                            "dojrzalosc":{
+                                "zbiorcza": "druga połowa/koniec sierpnia",
+                                "konsumpcyjna": "zaraz po zerwaniu"
+                            },
+                            "okres_przechowywania": "do 10 tygodni w chłodni",
+                            "rozstawa": "1-2m X 3-3,5m = ok. 1 420 - 3 334 szt./ha",
+                            "pochodzenie": "USA"
+                        },
+                        {
+                            "nazwa":"t",
+                            "galeria":[
+                                {"src":"t"},
+                                {"src":"t"}
+                            ],
+                            "charakterystyka":"t",
+                            "owoc": "t",
+                            "uprawa": "t",
+                            "wymagania":{
+                                "sloneczne":"t",
+                                "wodne":"t",
+                                "odczyn_gleby":"t"
+                            },
+                            "pora_kwitnienia": "t",
+                            "podatnosc_na_choroby": "t",
+                            "samopylnosc": "t",
+                            "zapylacze": ["t"],
+                            "ciecie": "t", 
+                            "mrozoodpornosc": "t",
+                            "dojrzalosc": {
+                                "zbiorcza":"t",
+                                "konsumpcyjna": "t"
+                            },
+                            "okres_przechowywania": "t",
+                            "rozstawa": "t",
+                            "pochodzenie": "t"
+                        },
+                        {
+                            "nazwa":"",
+                            "galeria":[
+                                {"src":""},
+                                {"src":""}
+                            ],
+                            "charakterystyka":"",
+                            "owoc": "",
+                            "uprawa": "",
+                            "wymagania":{
+                                "sloneczne":"",
+                                "wodne":"",
+                                "odczyn_gleby":""
+                            },
+                            "pora_kwitnienia": "",
+                            "podatnosc_na_choroby": "",
+                            "samopylnosc": "",
+                            "zapylacze": [""],
+                            "ciecie": "", 
+                            "mrozoodpornosc": "",
+                            "dojrzalosc": {
+                                "zbiorcza":"",
+                                "konsumpcyjna": ""
+                            },
+                            "okres_przechowywania": "",
+                            "rozstawa": "",
+                            "pochodzenie": ""
+                        },
+                        {
+                            "nazwa":"",
+                            "galeria":[
+                                {"src":""},
+                                {"src":""}
+                            ],
+                            "charakterystyka":"",
+                            "owoc": "",
+                            "uprawa": "",
+                            "wymagania":{
+                                "sloneczne":"",
+                                "wodne":"",
+                                "odczyn_gleby":""
+                            },
+                            "pora_kwitnienia": "",
+                            "podatnosc_na_choroby": "",
+                            "samopylnosc": "",
+                            "zapylacze": [""],
+                            "ciecie": "", 
+                            "mrozoodpornosc": "",
+                            "dojrzalosc": {
+                                "zbiorcza":"",
+                                "konsumpcyjna": ""
+                            },
+                            "okres_przechowywania": "",
+                            "rozstawa": "",
+                            "pochodzenie": ""
+                        }
+                    ]
+                },
+                {
+                    "rodzaj": "Jabłoń",
+                    "odmiany": [
+                        {
+                            "nazwa":"Delikates",
+                            "galeria":[
+                                {"src":""},
+                                {"src":""}
+                            ],
+                            "charakterystyka":"",
+                            "owoc": "",
+                            "uprawa": "",
+                            "wymagania":{
+                                "sloneczne":"",
+                                "wodne":"",
+                                "odczyn_gleby":""
+                            },
+                            "pora_kwitnienia": "",
+                            "podatnosc_na_choroby": "",
+                            "samopylnosc": "",
+                            "zapylacze": [""],
+                            "ciecie": "", 
+                            "mrozoodpornosc": "",
+                            "dojrzalosc": {
+                                "zbiorcza":"",
+                                "konsumpcyjna": ""
+                            },
+                            "okres_przechowywania": "",
+                            "rozstawa":"",
+                            "pochodzenie": ""
+                        },
+                        {
+                            "nazwa":"Antonówka",
+                            "galeria":[
+                                {"src":""},
+                                {"src":""}
+                            ],
+                            "charakterystyka":"",
+                            "owoc": "",
+                            "uprawa": "",
+                            "wymagania":{
+                                "sloneczne":"",
+                                "wodne":"",
+                                "odczyn_gleby":""
+                            },
+                            "pora_kwitnienia": "",
+                            "podatnosc_na_choroby": "",
+                            "samopylnosc": "",
+                            "zapylacze": [""],
+                            "ciecie": "", 
+                            "mrozoodpornosc": "",
+                            "dojrzalosc": {
+                                "zbiorcza":"",
+                                "konsumpcyjna": ""
+                            },
+                            "okres_przechowywania": "",
+                            "rozstawa":"",
+                            "pochodzenie": ""
+                        }
+                    ]
+                }
+            
+            ]
+        },
+        {
+            "nazwa":"Krzew",
+            "typ":[
+                {
+                    "rodzaj": "Winorośl",
+                    "odmiany": [
+                        {
+                            "nazwa":"t",
+                            "galeria":[
+                                {"src":"t"},
+                                {"src":"t"}
+                            ],
+                            "charakterystyka":"t",
+                            "owoc": "t",
+                            "uprawa": "t",
+                            "wymagania":{
+                                "sloneczne":"t",
+                                "wodne":"t",
+                                "odczyn_gleby":"t"
+                            },
+                            "pora_kwitnienia": "t",
+                            "podatnosc_na_choroby": "t",
+                            "samopylnosc": "t",
+                            "zapylacze": ["t"],
+                            "ciecie": "t", 
+                            "mrozoodpornosc": "t",
+                            "dojrzalosc": {
+                                "zbiorcza":"t",
+                                "konsumpcyjna": "t"
+                            },
+                            "okres_przechowywania": "t",
+                            "rozstawa": "t",
+                            "pochodzenie": "t"
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}
