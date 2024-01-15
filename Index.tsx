@@ -101,21 +101,31 @@ function Index(): JSX.Element {
     [darkMode],
   );
 
+  const NotificationsDrawerIcon = useCallback(
+    ({focused, size}: DrawerIconProps) => (
+      <Icon
+        name="bell"
+        size={size}
+        color={focused ? 'red' : darkMode ? 'white' : 'black'}
+      />
+    ),
+    [darkMode],
+  );
+
   // if (local_storage.contains('notificationsEnabled')) {
   //   const enabled = local_storage.getBoolean('notificationsEnabled');
   //   if (enabled !== undefined) {
   //     setNotificationsEnabled(enabled);
   //   }
   // }
-
-  useEffect(() => {
-    // loadThemeFromStorage(dispatch, local_storage).catch(error => {
-    //   console.error('Błąd podczas wczytywania motywu:', error);
-    // });
-    fetchDataAndUpdateState(dispatch, local_storage).catch(error => {
-      console.error('Błąd podczas wczytywania danych:', error);
-    });
-  }, [dispatch]);
+  fetchDataAndUpdateState(dispatch, local_storage).catch(error => {
+    console.error('Błąd podczas wczytywania danych:', error);
+  });
+  // useEffect(() => {
+  //   // loadThemeFromStorage(dispatch, local_storage).catch(error => {
+  //   //   console.error('Błąd podczas wczytywania motywu:', error);
+  //   // });
+  // }, []);
 
   return (
     <NavigationContainer theme={darkMode ? DarkTheme : DefaultTheme}>
@@ -169,7 +179,7 @@ function Index(): JSX.Element {
                 component={NotificationsScreen}
                 options={{
                   title: 'Powiadomienia',
-                  drawerIcon: MyPlantsDrawerIcon,
+                  drawerIcon: NotificationsDrawerIcon,
                 }}
               />
               <Drawer.Screen

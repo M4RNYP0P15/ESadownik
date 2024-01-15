@@ -1,5 +1,6 @@
 // import {Colors} from 'react-native/Libraries/NewAppScreen';
 import main from '../../styles/main';
+import React from 'react';
 import {
   SafeAreaView,
   StatusBar,
@@ -43,6 +44,12 @@ export default function SettingsScreen({}: SettingsProps) {
         return;
       }
       dispatch(toggleNotifications(newNotificationsEnabled));
+      showToast({
+        text: newNotificationsEnabled
+          ? 'Uprawnienia przyznane'
+          : 'Powiadomienia wyłączone',
+        long: false,
+      });
     } catch (error) {
       console.error('Error requesting permission:', error);
     }
